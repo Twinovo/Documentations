@@ -106,6 +106,7 @@ document.querySelectorAll('.viz-toggle').forEach(toggle => {
   });
 });
 
+
 document.querySelectorAll('.map-hotspot').forEach(hotspot => {
   hotspot.addEventListener('click', () => hotspot.classList.toggle('open'));
 });

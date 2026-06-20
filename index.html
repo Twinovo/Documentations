@@ -158,21 +158,20 @@
         <div class="title-row"><div><div class="eyebrow reveal">08 · VISUAL INTELLIGENCE</div><h2 class="reveal">See behavior—not just <span>device icons.</span></h2></div></div>
         <div class="viz-board reveal">
           <div class="map-stage" id="mapStage">
-            <img class="analysis-map active" data-map="Energy" src="heat map.jpg" alt="Energy heat map of the smart-home apartment">
-            <img class="analysis-map" data-map="Lighting" src="lighting-map.svg" alt="Lighting coverage map of the smart-home apartment">
-            <img class="analysis-map" data-map="Comfort" src="comfort-map.svg" alt="Thermal comfort zones in the smart-home apartment">
-            <img class="analysis-map" data-map="Traffic" src="traffic-map.svg" alt="Occupant traffic paths through the smart-home apartment">
+            <img class="analysis-map active" data-map="Energy" src="energy.png" alt="Energy heat map of the smart-home apartment">
+            <img class="analysis-map" data-map="Lighting" src="light.png" alt="Lighting coverage map of the smart-home apartment">
+            <img class="analysis-map" data-map="Comfort" src="comfort.png" alt="Thermal comfort zones in the smart-home apartment">
+            <img class="analysis-map" data-map="Traffic" src="traffic.png" alt="Occupant traffic paths through the smart-home apartment">
             <div class="map-grid"></div>
             <div class="scan-line"></div>
-            <button class="map-hotspot hot-a" aria-label="Inspect living room hotspot"><i></i><span>Living zone<br><b>Peak activity</b></span></button>
-            <button class="map-hotspot hot-b" aria-label="Inspect bedroom hotspot"><i></i><span>Private zone<br><b>Stable state</b></span></button>
+           
             <div class="map-status"><small>LIVE SPATIAL ANALYSIS</small><b id="mapCaption">Consumption intensity by zone</b></div>
           </div>
           <div class="viz-controls">
-            <button class="viz-toggle active" data-mode="Energy"><i class="energy-dot"></i><span><b>Energy heatmap</b><small>Consumption concentration</small></span></button>
-            <button class="viz-toggle" data-mode="Lighting"><i class="light-dot"></i><span><b>Lighting map</b><small>Coverage and intensity</small></span></button>
-            <button class="viz-toggle" data-mode="Comfort"><i class="comfort-dot"></i><span><b>Comfort zones</b><small>Temperature and occupancy</small></span></button>
-            <button class="viz-toggle" data-mode="Traffic"><i class="traffic-dot"></i><span><b>Traffic patterns</b><small>Movement through the property</small></span></button>
+            <button class="viz-toggle  heatmap active " data-mode="Energy"><i class="energy-dot"></i><span><b>Energy heatmap</b><small>Consumption concentration</small></span></button>
+            <button class="viz-toggle light" data-mode="Lighting"><i class="light-dot"></i><span><b>Lighting map</b><small>Coverage and intensity</small></span></button>
+            <button class="viz-toggle comfort" data-mode="Comfort"><i class="comfort-dot"></i><span><b>Comfort zones</b><small>Temperature and occupancy</small></span></button>
+            <button class="viz-toggle traffic" data-mode="Traffic"><i class="traffic-dot"></i><span><b>Traffic patterns</b><small>Movement through the property</small></span></button>
             <div class="live-readout"><small>ACTIVE OVERLAY</small><b id="overlayMode">ENERGY</b><em>LIVE SIMULATION</em></div>
           </div>
         </div>
@@ -187,13 +186,20 @@
           <p class="lead reveal">The platform supports service discovery, compatibility guidance, deposits, maintenance fees, and escalation to human IT support.</p>
           <div class="commerce-features reveal"><span>AI ASSISTANT</span><span>DEPOSITS</span><span>MAINTENANCE</span><span>IT ESCALATION</span></div>
         </div>
-        <div class="chat-demo reveal">
-          <div class="chat-head"><span class="bot-orb">✦</span><div><b>Digital Com Assistant</b><small>Configuration support · Online</small></div></div>
-          <div class="msg bot">I checked the living-room plan. The lighting and shading package is compatible with the selected KNX topology.</div>
-          <div class="msg user">Can I preview the evening scene before ordering?</div>
-          <div class="msg bot">Yes. I can apply the scene in the twin, estimate the package, or connect you with an engineer.</div>
-          <div class="chat-actions"><button>Preview scene</button><button>Talk to IT</button></div>
-        </div>
+<div class="chat-demo reveal">
+  <div class="chat-head"><span class="bot-orb">✦</span>
+    <div >
+      <b style="font-size: 18px;">Digital Com Assistant</b>
+      <small style="font-size: 13px;">Configuration support · Online</small>
+    </div>
+  </div>
+  <div class="msg bot">Great news! I checked your living room plan, and the smart lights and motorized blinds you
+    selected will work perfectly together.</div>
+  <div class="msg user">Can I see how the evening lighting will look before we finalize the order?</div>
+  <div class="msg bot">Absolutely. I can generate a 3D preview of your room at night, calculate the final price, or
+    connect you with a home specialist if you have more questions.</div>
+  <div class="chat-actions" ><button style="font-size: 13px;">Preview evening lighting</button><button style="font-size: 13px;">Chat with a specialist</button>
+  </div>
       </div>
     </section>
 
