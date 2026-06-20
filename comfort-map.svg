@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <filter id="soft"><feGaussianBlur stdDeviation="42"/></filter>
+    <filter id="base"><feColorMatrix values="0.65 0 0 0 0.12  0 0.70 0 0 0.14  0 0 0.78 0 0.18  0 0 0 1 0"/></filter>
+    <radialGradient id="cool"><stop stop-color="#43e8ff" stop-opacity=".9"/><stop offset=".55" stop-color="#168cff" stop-opacity=".62"/><stop offset="1" stop-color="#2471ff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="ideal"><stop stop-color="#baff72" stop-opacity=".9"/><stop offset=".55" stop-color="#39e6bd" stop-opacity=".65"/><stop offset="1" stop-color="#39e6bd" stop-opacity="0"/></radialGradient>
+    <radialGradient id="warm"><stop stop-color="#ffd764" stop-opacity=".88"/><stop offset=".55" stop-color="#ff8250" stop-opacity=".62"/><stop offset="1" stop-color="#ff8250" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="675" fill="#f4f7fb"/>
+  <image href="heat map.jpg" x="70" y="22" width="1060" height="630" preserveAspectRatio="xMidYMid meet" filter="url(#base)" opacity=".72"/>
+  <g filter="url(#soft)" style="mix-blend-mode:multiply">
+    <ellipse cx="445" cy="380" rx="205" ry="145" fill="url(#ideal)"/>
+    <ellipse cx="710" cy="270" rx="150" ry="105" fill="url(#cool)"/>
+    <ellipse cx="825" cy="435" rx="130" ry="105" fill="url(#warm)"/>
+    <ellipse cx="590" cy="190" rx="110" ry="80" fill="url(#cool)"/>
+  </g>
+  <g fill="none" stroke-width="4" opacity=".9">
+    <ellipse cx="445" cy="380" rx="175" ry="115" stroke="#32ddb7"/>
+    <ellipse cx="710" cy="270" rx="120" ry="78" stroke="#20bfff"/>
+    <ellipse cx="825" cy="435" rx="100" ry="76" stroke="#ff9360"/>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <filter id="base"><feColorMatrix values="0.6 0 0 0 0.13  0 0.62 0 0 0.14  0 0 0.72 0 0.22  0 0 0 1 0"/></filter>
+    <filter id="glow"><feGaussianBlur stdDeviation="8"/></filter>
+    <linearGradient id="route" x1="0" x2="1"><stop stop-color="#19d8ff"/><stop offset=".5" stop-color="#8b63ff"/><stop offset="1" stop-color="#ff4aa2"/></linearGradient>
+    <radialGradient id="hot"><stop stop-color="#fff"/><stop offset=".18" stop-color="#ff65b3"/><stop offset="1" stop-color="#7b42ff" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="675" fill="#f4f7fb"/>
+  <image href="heat map.jpg" x="70" y="22" width="1060" height="630" preserveAspectRatio="xMidYMid meet" filter="url(#base)" opacity=".76"/>
+  <path d="M278 472 C350 430 390 390 470 385 S590 420 650 350 S700 260 780 295 S875 390 900 460" fill="none" stroke="url(#route)" stroke-width="28" stroke-linecap="round" opacity=".22" filter="url(#glow)"/>
+  <path d="M278 472 C350 430 390 390 470 385 S590 420 650 350 S700 260 780 295 S875 390 900 460" fill="none" stroke="url(#route)" stroke-width="9" stroke-linecap="round" stroke-dasharray="18 15"/>
+  <path d="M470 385 C500 315 545 240 610 180" fill="none" stroke="#20cbff" stroke-width="7" stroke-linecap="round" stroke-dasharray="15 13"/>
+  <g>
+    <circle cx="278" cy="472" r="38" fill="url(#hot)"/><circle cx="470" cy="385" r="45" fill="url(#hot)"/>
+    <circle cx="650" cy="350" r="33" fill="url(#hot)"/><circle cx="780" cy="295" r="42" fill="url(#hot)"/>
+    <circle cx="900" cy="460" r="50" fill="url(#hot)"/>
+  </g>
+</svg>

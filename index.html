@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#060b17">
+  <title>Digital Com — Smart Home Digital Twin</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-a"></div>
+  <div class="ambient ambient-b"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#1" aria-label="Go to first slide">
+      <span class="brand-mark"><i></i><i></i><i></i></span>
+      <span>DIGITAL <b>COM</b></span>
+    </a>
+    <div class="top-actions">
+      <span class="section-label" id="sectionLabel">VISION</span>
+      <button class="icon-btn" id="overviewBtn" title="Slide overview" aria-label="Slide overview">⌘</button>
+      <button class="present-btn" id="presentBtn">Present <span>↗</span></button>
+    </div>
+  </header>
+
+  <main class="deck" id="deck">
+    <section class="slide hero active" data-section="Vision">
+      <div class="hero-bg"></div>
+      <div class="hero-shade"></div>
+      <div class="slide-content hero-copy">
+        <div class="eyebrow reveal">SMART ENVIRONMENTS · DIGITAL COMMERCE</div>
+        <h1 class="reveal">Build it digitally.<br><span>Live it intelligently.</span></h1>
+        <p class="lead reveal">A simulation-first platform that turns property blueprints into interactive, commerce-ready digital twins—before a single device is installed.</p>
+        <div class="hero-tags reveal">
+          <span>AI MODELING</span><span>AR / VR</span><span>LIVE TWIN</span><span>CRESTRON + KNX</span>
+        </div>
+      </div>
+      <div class="hero-stat reveal">
+        <small>ONE CONTINUOUS WORKFLOW</small>
+        <b>Discover → Design → Deploy → Operate</b>
+      </div>
+    </section>
+
+    <section class="slide" data-section="Opportunity">
+      <div class="slide-content split">
+        <div>
+          <div class="eyebrow reveal">01 · THE OPPORTUNITY</div>
+          <h2 class="reveal">Smart environments are sold with <span>too much imagination</span> and too little proof.</h2>
+          <p class="lead reveal">Customers must make expensive decisions from drawings and technical bills of materials. Planning, purchasing, commissioning, and support remain disconnected.</p>
+        </div>
+        <div class="problem-stack">
+          <article class="glass-card reveal"><b>01</b><div><h3>Unclear buying decisions</h3><p>The final experience is difficult to visualize before installation.</p></div></article>
+          <article class="glass-card reveal"><b>02</b><div><h3>Fragmented workflow</h3><p>Sales tools, design tools, hardware configuration, and support do not share one model.</p></div></article>
+          <article class="glass-card reveal"><b>03</b><div><h3>Limited post-install support</h3><p>Fault diagnosis, upgrades, and system history lack a persistent visual context.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide" data-section="Platform">
+      <div class="slide-content">
+        <div class="eyebrow reveal">02 · PLATFORM CONCEPT</div>
+        <h2 class="reveal">One digital layer across the <span>entire project lifecycle.</span></h2>
+        <div class="lifecycle reveal">
+          <div class="life-node active-node"><strong>01</strong><i>⌁</i><h3>Capture</h3><p>Upload PDF, JPG or PNG blueprints; scan physical context with AR.</p></div>
+          <div class="life-line"></div>
+          <div class="life-node"><strong>02</strong><i>◇</i><h3>Generate</h3><p>Convert plans into a layered, navigable 3D digital twin.</p></div>
+          <div class="life-line"></div>
+          <div class="life-node"><strong>03</strong><i>＋</i><h3>Configure</h3><p>Browse and place smart services directly inside the model.</p></div>
+          <div class="life-line"></div>
+          <div class="life-node"><strong>04</strong><i>▶</i><h3>Simulate</h3><p>Test layouts, controls, heatmaps, lightmaps, AR and VR.</p></div>
+          <div class="life-line"></div>
+          <div class="life-node"><strong>05</strong><i>⌁</i><h3>Synchronize</h3><p>Connect the deployed environment for monitoring and support.</p></div>
+        </div>
+        <div class="center-note reveal">Commerce is not separate from engineering—the selected services become part of the same technical twin.</div>
+      </div>
+    </section>
+
+    <section class="slide" data-section="Markets">
+      <div class="slide-content">
+        <div class="title-row">
+          <div><div class="eyebrow reveal">03 · SERVICE UNIVERSE</div><h2 class="reveal">One platform. <span>Five verticals.</span></h2></div>
+          <p class="side-lead reveal">A shared visualization and commerce layer, tailored to each environment.</p>
+        </div>
+        <div class="vertical-grid">
+          <article class="vertical-card reveal"><i>⌂</i><h3>Residential</h3><p>4K video · energy meters · HVAC · multi-zone audio · lighting & shading · security · geo-fencing</p></article>
+          <article class="vertical-card reveal"><i>▦</i><h3>Commercial</h3><p>Power management · smart lighting · digital signage · surveillance · interactive access</p></article>
+          <article class="vertical-card reveal"><i>⌁</i><h3>Smart City</h3><p>Traffic · waste systems · water monitoring & control · smart street lighting</p></article>
+          <article class="vertical-card reveal"><i>≋</i><h3>Yacht</h3><p>Motorized displays · monitored cloud services · marine audio · communication</p></article>
+          <article class="vertical-card reveal"><i>✦</i><h3>Specialized</h3><p>Guest room management · digitized nursing · lighting management · automated pro audio</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide" data-section="Journey">
+      <div class="slide-content">
+        <div class="eyebrow reveal">04 · USER JOURNEY</div>
+        <h2 class="reveal">From blank account to <span>living digital twin.</span></h2>
+        <div class="journey">
+          <button class="journey-step active" data-detail="Create an authenticated personal workspace and property profile."><b>01</b><span>Sign up</span></button>
+          <button class="journey-step" data-detail="Upload or scan a villa, house, city asset, commercial site, yacht, or specialized property."><b>02</b><span>Capture plan</span></button>
+          <button class="journey-step" data-detail="Generate a structured multi-floor 3D model with each level available as an independent layer."><b>03</b><span>Build twin</span></button>
+          <button class="journey-step" data-detail="Insert real objects and contextual references from an AR photo or scan."><b>04</b><span>Add reality</span></button>
+          <button class="journey-step" data-detail="Browse the catalog and position compatible smart services in the property."><b>05</b><span>Configure</span></button>
+          <button class="journey-step" data-detail="Navigate in 2D or 3D like a game; test appearance, behavior, and experience flow."><b>06</b><span>Simulate</span></button>
+          <button class="journey-step" data-detail="Optionally enter the model using a mobile/controller setup or a full VR kit."><b>07</b><span>Enter VR</span></button>
+          <button class="journey-step" data-detail="Ask the AI assistant or open a direct support conversation with the IT team."><b>08</b><span>Get support</span></button>
+          <button class="journey-step" data-detail="Pay deposits, project charges, and maintenance fees through the platform."><b>09</b><span>Pay</span></button>
+          <button class="journey-step" data-detail="Reuse the twin after installation for live monitoring, versions, debugging, and future upgrades."><b>10</b><span>Operate</span></button>
+        </div>
+        <div class="journey-detail reveal"><span id="journeyNumber">01</span><p id="journeyText">Create an authenticated personal workspace and property profile.</p></div>
+      </div>
+    </section>
+
+    <section class="slide visual-slide" data-section="Prototype">
+      <div class="visual-bg prototype-bg"></div>
+      <div class="visual-overlay"></div>
+      <div class="slide-content visual-copy">
+        <div class="eyebrow reveal">05 · PROTOTYPE EXPERIENCE</div>
+        <h2 class="reveal">The twin becomes the <span>shopping interface.</span></h2>
+        <p class="lead reveal">Upload the blueprint, inspect the generated property, activate services, compare cost, and continue to implementation—all inside one workspace.</p>
+        <div class="metric-row reveal"><div><b>2D / 3D</b><small>PLANNING MODES</small></div><div><b>REAL-TIME</b><small>SERVICE CONFIGURATION</small></div><div><b>ONE VIEW</b><small>DESIGN + COMMERCE</small></div></div>
+      </div>
+    </section>
+
+    <section class="slide" data-section="Digital Twin">
+      <div class="slide-content twin-layout">
+        <div>
+          <div class="eyebrow reveal">06 · MODEL GENERATION</div>
+          <h2 class="reveal">A blueprint becomes a <span>navigable system model.</span></h2>
+          <p class="lead reveal">AI-assisted processing interprets source files and produces a floor-by-floor environment for rendering, object placement, movement, and simulation in a game-engine workflow.</p>
+          <div class="format-pills reveal"><span>PDF</span><span>JPG</span><span>PNG</span><span>SCAN</span></div>
+        </div>
+        <div class="layer-stack reveal">
+          <div class="floor floor-3"><b>LEVEL 03</b><span>Bedrooms · climate · security</span></div>
+          <div class="floor floor-2"><b>LEVEL 02</b><span>Living · lighting · audio</span></div>
+          <div class="floor floor-1"><b>LEVEL 01</b><span>Access · energy · services</span></div>
+          <div class="data-base"><span></span><p>STRUCTURED PROPERTY DATA</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide visual-slide" data-section="AR / VR">
+      <div class="visual-bg ar-bg"></div>
+      <div class="visual-overlay dark-left"></div>
+      <div class="slide-content visual-copy">
+        <div class="eyebrow reveal">07 · AR + VR</div>
+        <h2 class="reveal">Move from a flat plan to a <span>felt experience.</span></h2>
+        <div class="ar-points reveal">
+          <div><b>AR context</b><p>Scan or photograph the real home to position objects and references more accurately.</p></div>
+          <div><b>Accessible VR</b><p>Mobile-connected controller plus a gamepad for a lower-cost immersive setup.</p></div>
+          <div><b>Premium VR</b><p>Full headset and controller package for room-scale, placement, and comfort validation.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide" data-section="Visualization">
+      <div class="slide-content">
+        <div class="title-row"><div><div class="eyebrow reveal">08 · VISUAL INTELLIGENCE</div><h2 class="reveal">See behavior—not just <span>device icons.</span></h2></div></div>
+        <div class="viz-board reveal">
+          <div class="map-stage" id="mapStage">
+            <img class="analysis-map active" data-map="Energy" src="heat map.jpg" alt="Energy heat map of the smart-home apartment">
+            <img class="analysis-map" data-map="Lighting" src="lighting-map.svg" alt="Lighting coverage map of the smart-home apartment">
+            <img class="analysis-map" data-map="Comfort" src="comfort-map.svg" alt="Thermal comfort zones in the smart-home apartment">
+            <img class="analysis-map" data-map="Traffic" src="traffic-map.svg" alt="Occupant traffic paths through the smart-home apartment">
+            <div class="map-grid"></div>
+            <div class="scan-line"></div>
+            <button class="map-hotspot hot-a" aria-label="Inspect living room hotspot"><i></i><span>Living zone<br><b>Peak activity</b></span></button>
+            <button class="map-hotspot hot-b" aria-label="Inspect bedroom hotspot"><i></i><span>Private zone<br><b>Stable state</b></span></button>
+            <div class="map-status"><small>LIVE SPATIAL ANALYSIS</small><b id="mapCaption">Consumption intensity by zone</b></div>
+          </div>
+          <div class="viz-controls">
+            <button class="viz-toggle active" data-mode="Energy"><i class="energy-dot"></i><span><b>Energy heatmap</b><small>Consumption concentration</small></span></button>
+            <button class="viz-toggle" data-mode="Lighting"><i class="light-dot"></i><span><b>Lighting map</b><small>Coverage and intensity</small></span></button>
+            <button class="viz-toggle" data-mode="Comfort"><i class="comfort-dot"></i><span><b>Comfort zones</b><small>Temperature and occupancy</small></span></button>
+            <button class="viz-toggle" data-mode="Traffic"><i class="traffic-dot"></i><span><b>Traffic patterns</b><small>Movement through the property</small></span></button>
+            <div class="live-readout"><small>ACTIVE OVERLAY</small><b id="overlayMode">ENERGY</b><em>LIVE SIMULATION</em></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide" data-section="Commerce">
+      <div class="slide-content split commerce-layout">
+        <div>
+          <div class="eyebrow reveal">09 · COMMERCE + SUPPORT</div>
+          <h2 class="reveal">A transaction layer that stays <span>technical.</span></h2>
+          <p class="lead reveal">The platform supports service discovery, compatibility guidance, deposits, maintenance fees, and escalation to human IT support.</p>
+          <div class="commerce-features reveal"><span>AI ASSISTANT</span><span>DEPOSITS</span><span>MAINTENANCE</span><span>IT ESCALATION</span></div>
+        </div>
+        <div class="chat-demo reveal">
+          <div class="chat-head"><span class="bot-orb">✦</span><div><b>Digital Com Assistant</b><small>Configuration support · Online</small></div></div>
+          <div class="msg bot">I checked the living-room plan. The lighting and shading package is compatible with the selected KNX topology.</div>
+          <div class="msg user">Can I preview the evening scene before ordering?</div>
+          <div class="msg bot">Yes. I can apply the scene in the twin, estimate the package, or connect you with an engineer.</div>
+          <div class="chat-actions"><button>Preview scene</button><button>Talk to IT</button></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide" data-section="Delivery">
+      <div class="slide-content">
+        <div class="eyebrow reveal">10 · TWO-PHASE DELIVERY</div>
+        <h2 class="reveal">First, prove the future. Then, <span>mirror the present.</span></h2>
+        <div class="phase-grid">
+          <article class="phase-card phase-one reveal">
+            <small>PHASE 01 · BEFORE IMPLEMENTATION</small><h3>Digital commerce twin</h3>
+            <ul><li>Account + property capture</li><li>3D model generation</li><li>Service placement and simulation</li><li>AR / optional VR preview</li><li>Support, deposits, and project review</li></ul>
+            <div class="phase-outcome">OUTCOME <b>Confident purchase + validated design</b></div>
+          </article>
+          <div class="phase-bridge reveal"><span>DEPLOY</span><i>→</i><small>Reuse the same saved model</small></div>
+          <article class="phase-card phase-two reveal">
+            <small>PHASE 02 · AFTER IMPLEMENTATION</small><h3>Live operational twin</h3>
+            <ul><li>Crestron feedback synchronization</li><li>Subscription validation</li><li>Current-state visualization</li><li>Fault diagnosis and event history</li><li>Maintenance and future upgrades</li></ul>
+            <div class="phase-outcome">OUTCOME <b>Persistent operations + faster support</b></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide" data-section="Architecture">
+      <div class="slide-content">
+        <div class="eyebrow reveal">11 · LIVE ARCHITECTURE</div>
+        <h2 class="reveal">Authorized data in. <span>Actionable state out.</span></h2>
+        <div class="architecture reveal">
+          <div class="arch-node home-node"><i>⌂</i><b>Crestron / KNX</b><small>Property processor</small><em>Periodic feedback</em></div>
+          <div class="arch-flow"><span></span><small>ENCRYPTED TRAFFIC</small></div>
+          <div class="arch-node gateway-node"><i>◈</i><b>Gateway server</b><small>Subscription + traffic control</small><em>Blocks unauthorized load</em></div>
+          <div class="arch-flow"><span></span><small>VALID USERS ONLY</small></div>
+          <div class="arch-node core-node"><i>◎</i><b>Central platform</b><small>Broker · database · versions</small><em>Latest property state</em></div>
+          <div class="arch-flow reverse"><span></span><small>STATE RESPONSE</small></div>
+          <div class="arch-node app-node"><i>▣</i><b>User application</b><small>Digital twin interface</small><em>Live view + control</em></div>
+        </div>
+        <p class="architecture-note reveal">The gateway reduces unnecessary requests, protects the core platform, and enables live synchronization as an additional subscription service.</p>
+      </div>
+    </section>
+
+    <section class="slide" data-section="Support">
+      <div class="slide-content support-layout">
+        <div>
+          <div class="eyebrow reveal">12 · REMOTE SUPPORT</div>
+          <h2 class="reveal">Open a secure path <span>only when needed.</span></h2>
+          <p class="lead reveal">A small tunneling service remains closed by default. With user approval and the correct encryption key, support can temporarily reach a controlled port in the Crestron-side environment.</p>
+          <div class="security-chips reveal"><span>USER APPROVAL</span><span>ENCRYPTION KEY</span><span>ROLE ACCESS</span><span>AUDITABLE CHANGE</span></div>
+        </div>
+        <div class="tunnel-scene reveal">
+          <div class="endpoint"><i>⌂</i><b>SMART PROPERTY</b><small>Live devices + processor</small></div>
+          <div class="tunnel"><span class="packet p1"></span><span class="packet p2"></span><span class="packet p3"></span><b>SECURE TUNNEL</b></div>
+          <div class="endpoint engineer"><i>⌘</i><b>SUPPORT ENGINEER</b><small>Inspect · diagnose · apply fix</small></div>
+          <div class="lock">⌾</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide" data-section="Governance">
+      <div class="slide-content">
+        <div class="eyebrow reveal">13 · TRUST + CONTINUITY</div>
+        <h2 class="reveal">A twin that remembers, <span>and access that is earned.</span></h2>
+        <div class="governance-grid">
+          <article class="govern-card reveal"><i>↻</i><h3>Version tracking</h3><p>Store blueprint and twin versions for rebuilds, rework, phased construction, upgrades, and deployment comparisons.</p><div class="version-list"><span>V3.2 <b>ACTIVE</b></span><span>V3.1 <small>lighting update</small></span><span>V2.8 <small>floor plan revision</small></span></div></article>
+          <article class="govern-card reveal"><i>◈</i><h3>Security by design</h3><p>Authenticate accounts, validate subscriptions, filter traffic, encrypt tunnels, and enforce role-based support permissions.</p><div class="shield-rings"><span></span><span></span><span></span><b>AUTHORIZED</b></div></article>
+          <article class="govern-card reveal"><i>▤</i><h3>Operational history</h3><p>Message-broker updates feed a database so engineers can inspect state, events, approved code updates, and configuration changes.</p><div class="pulse-chart"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide" data-section="Value">
+      <div class="slide-content">
+        <div class="eyebrow reveal">14 · EXPECTED VALUE</div>
+        <h2 class="reveal">The business case is built into the <span>customer experience.</span></h2>
+        <div class="benefit-grid">
+          <article class="benefit reveal"><b>↑</b><h3>Better conversion</h3><p>Customers see the expected result before buying.</p></article>
+          <article class="benefit reveal"><b>◎</b><h3>Lower ambiguity</h3><p>Services are tested in a realistic spatial model.</p></article>
+          <article class="benefit reveal"><b>⚡</b><h3>Faster commissioning</h3><p>Sales, engineering, and support share one context.</p></article>
+          <article class="benefit reveal"><b>↻</b><h3>Improved maintenance</h3><p>The live system is monitored, versioned, and diagnosable.</p></article>
+          <article class="benefit reveal"><b>◇</b><h3>Stronger confidence</h3><p>AR, VR, and interactive simulation make choices tangible.</p></article>
+          <article class="benefit reveal"><b>∞</b><h3>Reusable platform</h3><p>Homes, villas, yachts, city assets, and commercial spaces.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide final-slide" data-section="Conclusion">
+      <div class="final-grid"></div>
+      <div class="slide-content final-content">
+        <div class="eyebrow reveal">15 · THE DIGITAL COM VISION</div>
+        <h2 class="reveal">Don’t just sell smart technology.<br><span>Let customers experience it first.</span></h2>
+        <p class="lead reveal">Digital Com connects purchase decisions to technical implementation—and keeps the relationship alive through monitoring, support, and upgrades.</p>
+        <div class="final-flow reveal"><span>BLUEPRINT</span><i>→</i><span>DIGITAL TWIN</span><i>→</i><span>SMART SERVICES</span><i>→</i><span>LIVE ENVIRONMENT</span></div>
+        <button class="restart-btn reveal" id="restartBtn">Replay presentation ↻</button>
+      </div>
+    </section>
+  </main>
+
+  <aside class="overview" id="overview" aria-hidden="true">
+    <div class="overview-head"><div><small>PRESENTATION MAP</small><h3>Digital Com</h3></div><button id="closeOverview">×</button></div>
+    <div class="overview-grid" id="overviewGrid"></div>
+  </aside>
+
+  <footer class="controls">
+    <div class="progress-track"><span id="progressBar"></span></div>
+    <button class="nav-btn" id="prevBtn" aria-label="Previous slide">←</button>
+    <div class="counter"><b id="currentSlide">01</b><span>/</span><span id="totalSlides">15</span></div>
+    <button class="nav-btn" id="nextBtn" aria-label="Next slide">→</button>
+    <span class="hint">Use arrow keys or swipe</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

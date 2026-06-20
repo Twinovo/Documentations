@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <filter id="soft"><feGaussianBlur stdDeviation="34"/></filter>
+    <filter id="base"><feColorMatrix values="0.72 0 0 0 0.12  0 0.72 0 0 0.10  0 0 0.72 0 0.08  0 0 0 1 0"/></filter>
+    <radialGradient id="lamp"><stop stop-color="#fffbd0" stop-opacity=".98"/><stop offset=".35" stop-color="#ffd84d" stop-opacity=".82"/><stop offset="1" stop-color="#ff9d2e" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="675" fill="#f4f7fb"/>
+  <image href="heat map.jpg" x="70" y="22" width="1060" height="630" preserveAspectRatio="xMidYMid meet" filter="url(#base)" opacity=".78"/>
+  <g filter="url(#soft)" style="mix-blend-mode:multiply">
+    <ellipse cx="495" cy="390" rx="190" ry="125" fill="url(#lamp)"/>
+    <ellipse cx="720" cy="315" rx="135" ry="100" fill="url(#lamp)"/>
+    <ellipse cx="820" cy="448" rx="115" ry="90" fill="url(#lamp)"/>
+    <ellipse cx="610" cy="205" rx="100" ry="75" fill="url(#lamp)"/>
+  </g>
+  <g fill="#fff6aa" stroke="#ffb829" stroke-width="5">
+    <circle cx="495" cy="345" r="10"/><circle cx="720" cy="278" r="10"/><circle cx="820" cy="412" r="10"/><circle cx="610" cy="175" r="10"/>
+  </g>
+</svg>
