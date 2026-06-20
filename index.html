@@ -32,7 +32,7 @@
         <h1 class="reveal">Build it digitally.<br><span>Live it intelligently.</span></h1>
         <p class="lead reveal">A simulation-first platform that turns property blueprints into interactive, commerce-ready digital twins—before a single device is installed.</p>
         <div class="hero-tags reveal">
-          <span>AI MODELING</span><span>AR / VR</span><span>LIVE TWIN</span><span>CRESTRON + KNX</span>
+          <span>AI MODELING</span><span>Image Processing / VR</span><span>LIVE TWIN</span><span>CRESTRON + KNX</span>
         </div>
       </div>
       <div class="hero-stat reveal">
@@ -61,13 +61,13 @@
         <div class="eyebrow reveal">02 · PLATFORM CONCEPT</div>
         <h2 class="reveal">One digital layer across the <span>entire project lifecycle.</span></h2>
         <div class="lifecycle reveal">
-          <div class="life-node active-node"><strong>01</strong><i>⌁</i><h3>Capture</h3><p>Upload PDF, JPG or PNG blueprints; scan physical context with AR.</p></div>
+          <div class="life-node active-node"><strong>01</strong><i>⌁</i><h3>Capture</h3><p>Upload PDF, JPG or PNG blueprints; scan physical context with Image Processing.</p></div>
           <div class="life-line"></div>
           <div class="life-node"><strong>02</strong><i>◇</i><h3>Generate</h3><p>Convert plans into a layered, navigable 3D digital twin.</p></div>
           <div class="life-line"></div>
           <div class="life-node"><strong>03</strong><i>＋</i><h3>Configure</h3><p>Browse and place smart services directly inside the model.</p></div>
           <div class="life-line"></div>
-          <div class="life-node"><strong>04</strong><i>▶</i><h3>Simulate</h3><p>Test layouts, controls, heatmaps, lightmaps, AR and VR.</p></div>
+          <div class="life-node"><strong>04</strong><i>▶</i><h3>Simulate</h3><p>Test layouts, controls, heatmaps, lightmaps and VR.</p></div>
           <div class="life-line"></div>
           <div class="life-node"><strong>05</strong><i>⌁</i><h3>Synchronize</h3><p>Connect the deployed environment for monitoring and support.</p></div>
         </div>
@@ -99,7 +99,7 @@
           <button class="journey-step active" data-detail="Create an authenticated personal workspace and property profile."><b>01</b><span>Sign up</span></button>
           <button class="journey-step" data-detail="Upload or scan a villa, house, city asset, commercial site, yacht, or specialized property."><b>02</b><span>Capture plan</span></button>
           <button class="journey-step" data-detail="Generate a structured multi-floor 3D model with each level available as an independent layer."><b>03</b><span>Build twin</span></button>
-          <button class="journey-step" data-detail="Insert real objects and contextual references from an AR photo or scan."><b>04</b><span>Add reality</span></button>
+          <button class="journey-step" data-detail="Insert real objects and contextual references from a photo or scan using  Image Processing"><b>04</b><span>Add reality</span></button>
           <button class="journey-step" data-detail="Browse the catalog and position compatible smart services in the property."><b>05</b><span>Configure</span></button>
           <button class="journey-step" data-detail="Navigate in 2D or 3D like a game; test appearance, behavior, and experience flow."><b>06</b><span>Simulate</span></button>
           <button class="journey-step" data-detail="Optionally enter the model using a mobile/controller setup or a full VR kit."><b>07</b><span>Enter VR</span></button>
@@ -126,15 +126,13 @@
       <div class="slide-content twin-layout">
         <div>
           <div class="eyebrow reveal">06 · MODEL GENERATION</div>
-          <h2 class="reveal">A blueprint becomes a <span>navigable system model.</span></h2>
+          <h3 class="reveal">A blueprint becomes a <span>navigable system model.</span></h3>
           <p class="lead reveal">AI-assisted processing interprets source files and produces a floor-by-floor environment for rendering, object placement, movement, and simulation in a game-engine workflow.</p>
           <div class="format-pills reveal"><span>PDF</span><span>JPG</span><span>PNG</span><span>SCAN</span></div>
         </div>
         <div class="layer-stack reveal">
-          <div class="floor floor-3"><b>LEVEL 03</b><span>Bedrooms · climate · security</span></div>
-          <div class="floor floor-2"><b>LEVEL 02</b><span>Living · lighting · audio</span></div>
-          <div class="floor floor-1"><b>LEVEL 01</b><span>Access · energy · services</span></div>
-          <div class="data-base"><span></span><p>STRUCTURED PROPERTY DATA</p></div>
+          <div class="layer-card"><img src="floors.png" alt="3D model layer showing structural elements of the property"></div>
+        
         </div>
       </div>
     </section>
@@ -143,10 +141,10 @@
       <div class="visual-bg ar-bg"></div>
       <div class="visual-overlay dark-left"></div>
       <div class="slide-content visual-copy">
-        <div class="eyebrow reveal">07 · AR + VR</div>
+        <div class="eyebrow reveal">07 · VR</div>
         <h2 class="reveal">Move from a flat plan to a <span>felt experience.</span></h2>
         <div class="ar-points reveal">
-          <div><b>AR context</b><p>Scan or photograph the real home to position objects and references more accurately.</p></div>
+          <div><b> Image Processing context</b><p>Scan or photograph the real home to position objects and references more accurately.</p></div>
           <div><b>Accessible VR</b><p>Mobile-connected controller plus a gamepad for a lower-cost immersive setup.</p></div>
           <div><b>Premium VR</b><p>Full headset and controller package for room-scale, placement, and comfort validation.</p></div>
         </div>
@@ -155,7 +153,7 @@
 
     <section class="slide" data-section="Visualization">
       <div class="slide-content">
-        <div class="title-row"><div><div class="eyebrow reveal">08 · VISUAL INTELLIGENCE</div><h2 class="reveal">See behavior—not just <span>device icons.</span></h2></div></div>
+        <div class="title-row"><div><div class="eyebrow reveal">08 · VISUAL INTELLIGENCE</div><h2  class="reveal " style="font-size: 50px">See behavior <br>not just <span>device icons.</span></h2></div></div>
         <div class="viz-board reveal">
           <div class="map-stage" id="mapStage">
             <img class="analysis-map active" data-map="Energy" src="energy.png" alt="Energy heat map of the smart-home apartment">
@@ -210,7 +208,7 @@
         <div class="phase-grid">
           <article class="phase-card phase-one reveal">
             <small>PHASE 01 · BEFORE IMPLEMENTATION</small><h3>Digital commerce twin</h3>
-            <ul><li>Account + property capture</li><li>3D model generation</li><li>Service placement and simulation</li><li>AR / optional VR preview</li><li>Support, deposits, and project review</li></ul>
+            <ul><li>Account + property capture</li><li>3D model generation</li><li>Service placement and simulation</li><li>Image Processing / optional VR preview</li><li>Support, deposits, and project review</li></ul>
             <div class="phase-outcome">OUTCOME <b>Confident purchase + validated design</b></div>
           </article>
           <div class="phase-bridge reveal"><span>DEPLOY</span><i>→</i><small>Reuse the same saved model</small></div>
